@@ -15,20 +15,45 @@
 
 
 /* #region DEBUG */
-#site_header {
+.debug #site_header {
     height: 100px;
     background-color: var(--ps-dark);
 }
 
-.container-fluid {
+.debug .container-fluid {
     height: 300px;
     background-color: var(--ps-soft-dark);
 }
 
-.jumbotron .col-2 {
+.debug .col-2 {
     height: 100px;
     background-color: var(--ps-danger);
     border: 1px solid black;
-    
 }
+
+.debug .playstation_5, .debug .playstation_4, .debug .sale, .debug .social {
+    height: 500px;
+    background-color: grey ;
+}
+
+.debug .col-6, .debug .col-4 {
+    height: 300px;
+    background-color: var(--ps-danger);
+    border: 1px solid black;
+}
+
+.debug .col-3 {
+    height: 200px;
+    background-color: var(--ps-danger);
+    border: 1px solid black;
+}
+
+.debug footer {
+    height: 500px;
+}
+
 /* #endregion DEBUG */
+
+footer {
+    background-color: var(--ps-dark-blue);
+}
