@@ -143,6 +143,12 @@ ul i {
 }
 
 
+.takes_2_cta {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
 /* #endregion MAIN */
 
 
