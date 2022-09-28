@@ -9,10 +9,11 @@
 --ps-danger: #CD3D0F;
 --ps-light: #FFFFFF;
 --ps-btn: #363636;
+--ps-primary: #2D64E6;
+
 --ps-xsmall: 10px;
 --ps-small: 11px;
---ps-h1: 25px;
---ps-p: 13px;
+
 
 }
 
@@ -20,6 +21,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+.btn_primary {
+    background-color: var(--ps-primary);
+}
 /* #region DEBUG */
 .debug #site_header {
     height: 100px;
@@ -116,6 +124,23 @@ ul i {
     background-color: var(--ps-danger);
 }
 /* #endregion JUMBOTRON */
+
+.playstation_5 {
+    margin-top: 7rem;
+}
+
+.playstation_5 h6 {
+    color: var(--ps-light-blue);
+}
+
+.playstation_5 .p_title {
+    font-size: 21px;
+}
+
+.playstation_5 p {
+    font-size: 20px;
+    color: var(--ps-light-gray);
+}
 
 
 /* #endregion MAIN */
