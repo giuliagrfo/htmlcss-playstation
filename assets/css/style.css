@@ -114,6 +114,7 @@ ul i {
 .call_to_action {
     position: absolute;
     bottom: 0;
+    left: 50px;
 }
 
 .call_to_action img {
@@ -142,12 +143,15 @@ ul i {
     color: var(--ps-light-gray);
 }
 
-
 .takes_2_cta {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     height: 600px;
     position: relative;
+}
+
+.takes_2_thumb_list {
+    background-color: var(--ps-soft-dark);
 }
 /* #endregion MAIN */
 
