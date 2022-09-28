@@ -193,3 +193,21 @@ ul i {
 footer {
     background-color: var(--ps-dark-blue);
 }
+
+footer .sie_logo {
+    width: 100px;
+}
+
+footer li {
+    list-style: none;
+    line-height: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--ps-light);
+}
+
+.more_info {
+    text-decoration: underline;
+}
