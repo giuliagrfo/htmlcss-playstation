@@ -1,3 +1,4 @@
+/* COMMON RULES */
 :root {
 --ps-dark: #000000;
 --ps-dark-blue: #00439C;
@@ -15,8 +16,6 @@
 --ps-now: #161C3B;
 --ps-xsmall: 10px;
 --ps-small: 11px;
-
-
 }
 
 body {
@@ -40,6 +39,16 @@ h2 {
     background-color: var(--ps-light);
     color: var(--ps-dark);
 }
+
+.btn_secondary {
+    background-color: var(--ps-btn);
+}
+
+.call_to_action {
+    position: absolute;
+    bottom: 0;
+}
+
 /* #region DEBUG */
 .debug #site_header {
     height: 100px;
@@ -81,7 +90,6 @@ h2 {
 /* #endregion DEBUG */
 
 /* #region HEADER */
-
 .sony_lg {
     width: 80px;
 }
@@ -100,19 +108,12 @@ ul i {
     padding-left: 0.25rem;
 }
 
-.btn_secondary {
-    background-color: var(--ps-btn);
-}
-
 .search {
     color: var(--ps-btn);
-}
-
+} 
 /* #endregion HEADER */
 
-
 /* #region MAIN */
-
 
 /* #region JUMBOTRON */
 .jumbotron_cta {
@@ -137,6 +138,7 @@ ul i {
 }
 /* #endregion JUMBOTRON */
 
+/* #region PLAYSTATION_5 */
 .playstation_5 {
     margin-top: 8rem;
 }
@@ -155,7 +157,9 @@ ul i {
     margin: 0;
     line-height: 25px;
 }
+/* #endregion PLAYSTATION_5 */
 
+/* #region TAKES_2 */
 .takes_2_cta {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -166,7 +170,9 @@ ul i {
 .takes_2_thumb_list {
     background-color: var(--ps-soft-dark);
 }
+/* #endregion TAKES_2 */
 
+/* #region PLAY_PLUS */
 .play_plus {
     background-color: var(--ps-soft-light);
 }
@@ -182,14 +188,17 @@ ul i {
 .play_plus, .play_now {
     margin-top: 5rem;
 }
+/* #endregion PLAY_PLUS */
 
+/* #region PLAY_NOW */
 .play_now {
     background-color: var(--ps-now);
 }
+/* #endregion PLAY_NOW */
 
 /* #endregion MAIN */
 
-
+/* #region FOOTER */
 footer {
     background-color: var(--ps-dark-blue);
 }
@@ -211,3 +220,4 @@ footer a {
 .more_info {
     text-decoration: underline;
 }
+/* #endregion FOOTER */
