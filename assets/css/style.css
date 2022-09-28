@@ -11,7 +11,7 @@
 --ps-btn: #363636;
 --ps-primary: #2D64E6;
 --ps-soft-light: #BEBCBB;
---ps--btn_light: #D9DADC;
+--ps-btn_light: #D9DADC;
 --ps-now: #161C3B;
 --ps-xsmall: 10px;
 --ps-small: 11px;
@@ -32,8 +32,13 @@ h2 {
 }
 
 .btn_transparent {
-    background-color: var(--ps--btn_light);
+    background-color: var(--ps-btn_light);
     color: var(--ps-primary);
+}
+
+.btn_now {
+    background-color: var(--ps-light);
+    color: var(--ps-dark);
 }
 /* #region DEBUG */
 .debug #site_header {
@@ -164,7 +169,6 @@ ul i {
 
 .play_plus {
     background-color: var(--ps-soft-light);
-    margin-top: 5rem;
 }
 
 .plus_logo {
@@ -173,6 +177,10 @@ ul i {
 
 .ps_plus {
     height: 100%;
+}
+
+.play_plus, .play_now {
+    margin-top: 5rem;
 }
 
 .play_now {
