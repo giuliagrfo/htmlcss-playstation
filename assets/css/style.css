@@ -97,7 +97,7 @@ ul i {
 
 
 /* #region JUMBOTRON */
-.jumbotron {
+.jumbotron_cta {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: 100%;
