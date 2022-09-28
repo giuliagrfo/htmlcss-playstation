@@ -21,7 +21,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1 {
+h2 {
     font-size: 40px;
 }
 
@@ -138,9 +138,11 @@ ul i {
     font-size: 21px;
 }
 
-.playstation_5 p {
+.title p {
     font-size: 20px;
     color: var(--ps-light-gray);
+    margin: 0;
+    line-height: 25px;
 }
 
 .takes_2_cta {
