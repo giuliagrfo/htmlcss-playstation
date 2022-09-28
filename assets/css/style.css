@@ -32,11 +32,11 @@
 }
 
 .debug .playstation_5, .debug .playstation_4, .debug .sale, .debug .social {
-    height: 500px;
+    height: 100%;
     background-color: grey ;
 }
 
-.debug .col-6, .debug .col-4 {
+.debug .col-12, .debug .col-4, .debug .col-6 {
     height: 300px;
     background-color: var(--ps-danger);
     border: 1px solid black;
@@ -49,7 +49,7 @@
 }
 
 .debug footer {
-    height: 500px;
+    height: 100%;
 }
 
 /* #endregion DEBUG */
