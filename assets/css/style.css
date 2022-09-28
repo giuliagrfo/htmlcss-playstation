@@ -20,9 +20,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-p {
-    font-size: var(--ps-p);
-}
 /* #region DEBUG */
 .debug #site_header {
     height: 100px;
@@ -76,6 +73,7 @@ p {
 .navbar a {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 ul i {
     color: var(--ps-angle);
     font-size: 12px;
@@ -100,7 +98,7 @@ ul i {
 .jumbotron_cta {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: 100%;
+    background-position: center;
     height: 600px;
     position: relative;
 }
@@ -111,8 +109,9 @@ ul i {
 }
 
 .call_to_action img {
-    width: 200px;
+    width: 250px;
 }
+
 .btn_danger {
     background-color: var(--ps-danger);
 }
