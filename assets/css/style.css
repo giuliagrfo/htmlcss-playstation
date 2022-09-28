@@ -7,6 +7,7 @@
 --ps-light-gray: #777777;
 --ps-danger: #CD3D0F;
 --ps-light: #FFFFFF;
+--ps-btn: #363636;
 --ps-xsmall: 10px;
 --ps-small: 11px;
 --ps-h1: 25px;
@@ -53,6 +54,11 @@
 }
 
 /* #endregion DEBUG */
+
+.btn_secondary {
+    background-color: var(--ps-btn);
+}
+
 
 footer {
     background-color: var(--ps-dark-blue);
