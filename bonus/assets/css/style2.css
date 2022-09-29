@@ -1,0 +1,266 @@
+/* COMMON RULES */
+:root {
+--ps-dark: #000000;
+--ps-dark-blue: #00439C;
+--ps-soft-blue: #0070D1;
+--ps-light-blue: #1E83D4;
+--ps-soft-dark: #1F1F1F;
+--ps-light-gray: #777777;
+--ps-angle: #A4A4A4;
+--ps-danger: #CD3D0F;
+--ps-light: #FFFFFF;
+--ps-btn: #363636;
+--ps-primary: #2D64E6;
+--ps-soft-light: #BEBCBB;
+--ps-btn_light: #D9DADC;
+--ps-now: #161C3B;
+--ps-xsmall: 10px;
+--ps-small: 11px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+button {
+    padding:0.375rem 0.75rem ;
+    color: var(--ps-light);
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn_primary {
+    background-color: var(--ps-primary);
+}
+
+.btn_transparent {
+    background-color: var(--ps-btn_light);
+    color: var(--ps-primary);
+}
+
+.btn_now {
+    background-color: var(--ps-light);
+    color: var(--ps-dark);
+}
+
+.btn_secondary {
+    background-color: var(--ps-btn);
+}
+
+.btn_secondary:hover, 
+.btn_transparent:hover, 
+.btn_primary:hover {
+    box-shadow:0px 0px 2px 4px #e6e6e685 inset;
+}
+
+.btn_danger:hover {
+    box-shadow:0px 0px 2px 4px #6f0000 inset;
+}
+
+.btn_now:hover {
+    box-shadow:0px 0px 2px 4px #8f8f8f inset;
+}
+
+.call_to_action {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* #region DEBUG */
+.debug #site_header {
+    height: 100px;
+    background-color: var(--ps-dark);
+}
+
+.debug .container-fluid {
+    height: 300px;
+    background-color: var(--ps-soft-dark);
+}
+
+.debug .col-2 {
+    height: 100px;
+    background-color: var(--ps-danger);
+    border: 1px solid black;
+}
+
+.debug .playstation_5, .debug .playstation_4, .debug .sale, .debug .social {
+    height: 100%;
+    background-color: grey ;
+}
+
+.debug .col-12, .debug .col-4, .debug .col-6 {
+    height: 300px;
+    background-color: var(--ps-danger);
+    border: 1px solid black;
+}
+
+.debug .col-3 {
+    height: 200px;
+    background-color: var(--ps-danger);
+    border: 1px solid black;
+}
+
+.debug footer {
+    height: 100%;
+}
+
+/* #endregion DEBUG */
+
+/* #region HEADER */
+#site_header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#site_main {
+    padding-top: 6rem;
+}
+.sony_lg {
+    width: 80px;
+}
+
+.dropdown-toggle:after {
+    content: none
+}
+.drop_chevron {
+    width: 10px;
+}
+
+.navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul i {
+    color: var(--ps-angle);
+    font-size: 12px;
+    padding-left: 0.25rem;
+}
+
+.search img{
+    filter: contrast(50%);
+    width: 25px;
+} 
+/* #endregion HEADER */
+
+/* #region MAIN */
+
+/* #region JUMBOTRON */
+.jumbotron_cta {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+.call_to_action {
+    position: absolute;
+    bottom: 0;
+}
+
+.call_to_action img {
+    width: 250px;
+}
+
+.btn_danger {
+    background-color: var(--ps-danger);
+}
+/* #endregion JUMBOTRON */
+
+/* #region PLAYSTATION_5 */
+.playstation_5 {
+    margin-top: 8rem;
+}
+
+.playstation_5 h6 {
+    color: var(--ps-light-blue);
+}
+
+.playstation_5 .p_title {
+    font-size: 21px;
+}
+
+.title p {
+    font-size: 20px;
+    color: var(--ps-light-gray);
+    margin: 0;
+    line-height: 25px;
+}
+/* #endregion PLAYSTATION_5 */
+
+/* #region TAKES_2 */
+.takes_2_cta {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.takes_2_thumb_list {
+    background-color: var(--ps-soft-dark);
+}
+/* #endregion TAKES_2 */
+
+/* #region PLAY_PLUS */
+.play_plus {
+    background-color: var(--ps-soft-light);
+}
+
+.plus_logo {
+    width: 300px;
+}
+
+.ps_plus {
+    height: 100%;
+}
+
+.play_plus, .play_now {
+    margin-top: 5rem;
+}
+/* #endregion PLAY_PLUS */
+
+/* #region PLAY_NOW */
+.play_now {
+    background-color: var(--ps-now);
+}
+/* #endregion PLAY_NOW */
+
+/* #endregion MAIN */
+
+/* #region FOOTER */
+footer {
+    background-color: var(--ps-dark-blue);
+}
+
+footer .ft_logo {
+    width: 100px;
+}
+
+footer .sie_logo {
+    width: 150px;
+}
+
+footer .globe_logo {
+    width: 20px;
+}
+
+footer li {
+    list-style: none;
+    line-height: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--ps-light);
+}
+
+.more_info {
+    text-decoration: underline;
+}
+/* #endregion FOOTER */
