@@ -196,6 +196,9 @@ ul i {
 }
 /* #endregion PLAY_NOW */
 
+.social img {
+    width: 100px;
+}
 /* #endregion MAIN */
 
 /* #region FOOTER */
@@ -203,8 +206,12 @@ footer {
     background-color: var(--ps-dark-blue);
 }
 
-footer .sie_logo {
+footer .ft_logo {
     width: 100px;
+}
+
+footer .sie_logo {
+    width: 150px;
 }
 
 footer li {
