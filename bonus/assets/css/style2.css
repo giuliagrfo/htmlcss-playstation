@@ -303,6 +303,14 @@ footer a {
     color: var(--ps-light);
 }
 
+footer a:hover {
+    color: var(--ps-light);
+}
+
+footer li:hover {
+    transform: scale(1.2);
+}
+
 .more_info {
     text-decoration: underline;
 }
