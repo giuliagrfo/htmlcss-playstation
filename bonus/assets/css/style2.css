@@ -116,6 +116,7 @@ button {
     position: fixed;
     z-index: 1;
     width: 100%;
+    box-shadow: 0 0 5px 3px rgba(153, 153, 153, 0.633);
 }
 
 #site_main {
@@ -192,6 +193,8 @@ ul i {
     margin: 0;
     line-height: 25px;
 }
+
+
 /* #endregion PLAYSTATION_5 */
 
 /* #region TAKES_2 */
