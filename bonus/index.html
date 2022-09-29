@@ -31,12 +31,13 @@
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Giochi <img class="img-fluid drop_chevron" src="./assets/img/chevron-down-solid.svg" alt=""></a>
-                    <div class="dropdown-menu drop_menu" aria-labelledby="dropdownId">
+                        Giochi <img class="img-fluid drop_chevron" src="./assets/img/chevron-down-solid.svg" alt="">
+                    </a>
+                    <div class="dropdown-menu drop_menu dropdown-menu-right" aria-labelledby="dropdownId">
                         <ul>
                             <li>
                                 <a class="dropdown-item" href="#">
@@ -64,7 +65,7 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Hardware <img class="img-fluid drop_chevron" src="./assets/img/chevron-down-solid.svg" alt=""></i>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="#">Action 1</a>
                         <a class="dropdown-item" href="#">Action 2</a>
                     </div>
@@ -103,7 +104,7 @@
                 </li>
             </ul>
         </div>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -126,19 +127,22 @@
 
     <section class="jumbotron">
         <div class="jumbotron_cta">
-            <div class="call_to_action text-white pb-5">
-                <div class="container-fluid container-sm px-sm-4">
-                    <div class="row">
-                        <div class="col-12 col-xxl-5">
-                            <img src="./assets/img/returnal-hero-banner-logo.png" alt="">
-                            <h2 class="my-4">Rompi il cerchio</h2>
-                            <p class="">
-                                Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
-                            </p>
-                            <button type="button" class="btn_danger rounded-5 mt-3">Acquista ora</button>
+            <div class="container">
+                <div class="call_to_action text-white pb-5">
+                    <div class="container-fluid container-sm">
+                        <div class="row">
+                            <div class="col-12 col-xxl-5 g-0">
+                                <img src="./assets/img/returnal-hero-banner-logo.png" alt="">
+                                <h2 class="my-4">Rompi il cerchio</h2>
+                                <p class="">
+                                    Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
+                                </p>
+                                <button type="button" class="btn_danger rounded-5 mt-3">Acquista ora</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
 
@@ -189,35 +193,40 @@
                     <img class="img-fluid" src="./assets/img/playstation-5-thumb.png" alt="">
                 </div>
             </div>
-            <div class="row justify-content-between">
-                <div class="col-4 col-md-2 g-0">
-                    <div class="play5_thumb console text-center">
-                        <img class="img-fluid" src="./assets/img/playstation-5-thumb.png" alt="">
-                        <span>Console PS5</span>
+            <div class="row justify-content-sm-between">
+                <div class="col-4 col-md-2 g-0 console">
+                    <div class="play5_thumb text-center">
+                        <div class="description">
+                            <img class="img-fluid" src="./assets/img/playstation-5-thumb.png" alt="">
+                            <p>Console PS5</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4 col-md-2 g-0">
+                <div class="col-4 col-md-2 g-0 hover_thumb">
                     <div class="play5_thumb dull text-center">
-                        <img class="img-fluid" src="./assets/img/joypad-thumb.png" alt="">
-                        <span>Controller wireless DualSense&trade;</span>
+                        <div class="description">
+                            <img class="img-fluid" src="./assets/img/joypad-thumb.png" alt="">
+                            <p>Controller wireless DualSense&trade;</p>
+
+                        </div>
                     </div>
                 </div>
-                <div class="col-4 col-md-2 g-0">
+                <div class="col-4 col-md-2 g-0 hover_thumb">
                     <div class="play5_thumb dull text-center">
                         <img class="img-fluid" src="./assets/img/headset-thumb.png" alt="">
-                        <span>Cuffie wireless con microfono PULSE 3&trade;</span>
+                        <p>Cuffie wireless con microfono PULSE 3&trade;</p>
                     </div>
                 </div>
-                <div class="col-4 col-md-2 g-0">
+                <div class="col-4 col-md-2 g-0 hover_thumb">
                     <div class="play5_thumb dull remote text-center">
                         <img class="img-fluid" src="./assets/img/remote-thumb.png" alt="">
-                        <span class="mb-1">Telecomando Media</span>
+                        <p class="mb-1">Telecomando Media</p>
                     </div>
                 </div>
-                <div class="col-4 col-md-2 g-0">
+                <div class="col-4 col-md-2 g-0 hover_thumb">
                     <div class="play5_thumb dull camera text-center">
                         <img class="img-fluid" src="./assets/img/camera-thumb.jpg" alt="">
-                        <span>Telecamera HD</span>
+                        <p>Telecamera HD</p>
                     </div>
                 </div>
 
@@ -227,16 +236,18 @@
 
     <section class="takes_2 mt-5">
         <div class="takes_2_cta">
-            <div class="call_to_action text-white pb-5">
-                <div class="container-fluid container-sm px-sm-4">
-                    <div class="row">
-                        <div class="col-12 col-xxl-5">
-                            <img src="./assets/img/it-takes-two-logo.png" alt="">
-                            <h2 class="my-4">Un'avventura cooperativa selvaggia ti attende</h2>
-                            <p class="">
-                                Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
-                            </p>
-                            <button type="button" class="btn_danger rounded-5 mt-3">Acquista ora</button>
+            <div class="container">
+                <div class="call_to_action text-white pb-5">
+                    <div class="container-fluid container-sm">
+                        <div class="row">
+                            <div class="col-12 col-xxl-5 g-0">
+                                <img src="./assets/img/it-takes-two-logo.png" alt="">
+                                <h2 class="my-4">Un'avventura cooperativa selvaggia ti attende</h2>
+                                <p class="">
+                                    Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
+                                </p>
+                                <button type="button" class="btn_danger rounded-5 mt-3">Acquista ora</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -340,7 +351,7 @@
                 </div>
             </div> 
             <div class="row">
-                <div class="col-12 col-md-4 g-5">
+                <div class="col-12 col-md-4">
                     <img class="img-fluid" src="./assets/img/ps4-slim-homepage-image-block.jpg" alt="">
                     <div class="title">
                         <h2 class="mb-4">PlayStation 4</h2>
@@ -350,7 +361,7 @@
                         <button type="button" class="btn_primary rounded-5 mt-3">Scopri di più</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 g-5">
+                <div class="col-12 col-md-4">
                     <img class="img-fluid" src="./assets/img/double11-202010-tw-psvr.jpg" alt="">
                     <div class="title">
                         <h2 class="mb-4">PlayStation VR</h2>
@@ -360,12 +371,12 @@
                         <button type="button" class="btn_primary rounded-5 mt-3">Scopri di più</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 g-5">
+                <div class="col-12 col-md-4">
                     <img class="img-fluid" src="./assets/img/dualshock-4-listing-thumb.jpg" alt="">
                     <div class="title">
-                        <h2 class="mb-4">Accessori</h2>
+                        <h2 class="mb-4 mb-md-5">Accessori</h2>
                         <p>
-                            Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.
+                            Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.
                         </p>
                         <button type="button" class="btn_primary rounded-5 mt-3">Scopri di più</button>
                     </div>

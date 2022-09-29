@@ -68,6 +68,7 @@ button {
 .call_to_action {
     position: absolute;
     bottom: 0;
+    left: auto;
 }
 
 
@@ -114,14 +115,14 @@ button {
 /* #region HEADER */
 #site_header {
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
     width: 100%;
     box-shadow: 0 0 5px 3px rgba(153, 153, 153, 0.633);
 }
 
-#site_main {
-    padding-top: 6rem;
-}
+
 .sony_lg {
     width: 80px;
 }
@@ -129,6 +130,7 @@ button {
 .dropdown-toggle:after {
     content: none
 }
+
 .drop_chevron {
     width: 10px;
 }
@@ -150,7 +152,6 @@ ul i {
 
 nav img {
     width: 50px;
-    
 }
 
 .drop_menu ul{
@@ -164,6 +165,9 @@ nav img {
 /* #endregion HEADER */
 
 /* #region MAIN */
+#site_main {
+    padding-top: 6rem;
+}
 
 /* #region JUMBOTRON */
 .jumbotron_cta {
@@ -224,31 +228,20 @@ nav img {
     margin: 0;
     line-height: 25px;
 }
-
-.play5_thumb {
+.console {
     border-bottom: 2px solid var(--ps-light-blue);
-    border-radius: 2px;
-    font-size: 15px;
-}
-
-.console, .remote, .camera {
-    padding-bottom: 1.375rem;
 }
 
 .dull {
     filter: opacity(60%);
-    border: none
 }
 
-.console:hover {
-    cursor: pointer;
-}
-
-.dull:hover {
+.hover_thumb:hover {
     cursor: pointer;
     filter: opacity(100%);
     border-bottom: 2px solid var(--ps-light-blue);
 }
+
 /* #endregion PLAYSTATION_5 */
 
 /* #region TAKES_2 */
