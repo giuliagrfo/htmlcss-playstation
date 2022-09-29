@@ -52,7 +52,6 @@ button {
 }
 
 .btn_secondary:hover, 
-.btn_transparent:hover, 
 .btn_primary:hover {
     box-shadow:0px 0px 2px 4px #e6e6e685 inset;
 }
@@ -61,7 +60,8 @@ button {
     box-shadow:0px 0px 2px 4px #6f0000 inset;
 }
 
-.btn_now:hover {
+.btn_now:hover,
+.btn_transparent:hover {
     box-shadow:0px 0px 2px 4px #8f8f8f inset;
 }
 
@@ -172,6 +172,23 @@ ul i {
 .btn_danger {
     background-color: var(--ps-danger);
 }
+
+.jumbotron_thumb_list .col-6 {
+    margin-top: 10px; 
+    transition: margin-top 0.5s ease-in-out;
+}
+
+.jumbotron_thumb_list .col-6:hover {
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.accent {
+    padding: 0.1rem;
+    border: 3px solid var(--ps-light-blue);
+}
+
+
 /* #endregion JUMBOTRON */
 
 /* #region PLAYSTATION_5 */
