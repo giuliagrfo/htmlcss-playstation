@@ -90,12 +90,24 @@ h2 {
 /* #endregion DEBUG */
 
 /* #region HEADER */
+#site_header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#site_main {
+    padding-top: 6rem;
+}
 .sony_lg {
     width: 80px;
 }
 
 .dropdown-toggle:after {
     content: none
+}
+.drop_chevron {
+    width: 10px;
 }
 
 .navbar a {
@@ -108,8 +120,9 @@ ul i {
     padding-left: 0.25rem;
 }
 
-.search {
-    color: var(--ps-btn);
+.search img{
+    filter: contrast(50%);
+    width: 25px;
 } 
 /* #endregion HEADER */
 
@@ -209,6 +222,10 @@ footer .ft_logo {
 
 footer .sie_logo {
     width: 150px;
+}
+
+footer .globe_logo {
+    width: 20px;
 }
 
 footer li {
