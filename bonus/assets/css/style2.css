@@ -147,6 +147,20 @@ ul i {
     filter: contrast(50%);
     width: 25px;
 } 
+
+nav img {
+    width: 50px;
+    
+}
+
+.drop_menu ul{
+    display: block ruby;
+}
+
+.drop_menu li {
+    list-style: none;
+}
+
 /* #endregion HEADER */
 
 /* #region MAIN */
