@@ -253,6 +253,7 @@ ul i {
 /* #region PLAY_PLUS */
 .play_plus {
     background-color: var(--ps-soft-light);
+    transition: 1s ease-in-out;
 }
 
 .plus_logo {
@@ -266,11 +267,20 @@ ul i {
 .play_plus, .play_now {
     margin-top: 5rem;
 }
+
+.play_plus:hover {
+    background-color: rgba(117, 67, 144, 0.573);
+}
 /* #endregion PLAY_PLUS */
 
 /* #region PLAY_NOW */
 .play_now {
     background-color: var(--ps-now);
+    transition: 1s ease-in-out;
+}
+
+.play_now:hover {
+    background-color: rgba(255, 34, 0, 0.739);
 }
 /* #endregion PLAY_NOW */
 
