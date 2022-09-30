@@ -26,6 +26,14 @@ h2 {
     font-size: 40px;
 }
 
+.button {
+    background-color: var(--ps-light);
+    border: none;
+    transition: box-shadow 0.25s ease-in-out;
+    text-decoration: none;
+    color: var(--ps-light);
+}
+
 .btn_primary {
     background-color: var(--ps-primary);
 }
@@ -44,9 +52,18 @@ h2 {
     background-color: var(--ps-btn);
 }
 
+.btn_danger {
+    background-color: var(--ps-danger);
+}
+
+.button:hover {
+    color: var(--ps-light);
+}
+
 .call_to_action {
     position: absolute;
     bottom: 0;
+    left: auto;
 }
 
 /* #region DEBUG */
