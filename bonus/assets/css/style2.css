@@ -58,20 +58,23 @@ h2 {
 
 .btn_secondary:hover, 
 .btn_primary:hover {
+    cursor: pointer;
     box-shadow:0px 0px 2px 4px #e6e6e685 inset;
     color: var(--ps-light);
 }
 
 .btn_danger:hover {
+    cursor: pointer;
     box-shadow:0px 0px 2px 4px #6f0000 inset;
     color: var(--ps-light);
-
-    
 }
 
 .btn_now:hover,
 .btn_transparent:hover {
+    cursor: pointer;
     box-shadow:0px 0px 2px 4px #8f8f8f inset;
+    color: var(--ps-dark);
+
 }
 
 .call_to_action {
