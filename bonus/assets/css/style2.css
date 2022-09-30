@@ -125,12 +125,20 @@ button {
     width: 80px;
 }
 
-.dropdown-toggle:after {
-    content: none
+
+.dropdown-toggle::after {
+    border: none;
+    content: url(../img/chevron-down-solid.svg);
+    width: 10px;
+    vertical-align: middle;
 }
 
-.drop_chevron {
-    width: 10px;
+.dropdown-toggle.show::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: '\f077';
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 .navbar a {
