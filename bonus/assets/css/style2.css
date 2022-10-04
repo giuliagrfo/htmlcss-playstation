@@ -74,7 +74,6 @@ h2 {
     cursor: pointer;
     box-shadow:0px 0px 2px 4px #8f8f8f inset;
     color: var(--ps-dark);
-
 }
 
 .call_to_action {
@@ -222,6 +221,7 @@ nav img {
 .accent {
     padding: 0.1rem;
     border: 3px solid var(--ps-light-blue);
+    margin-bottom: -1rem;
 }
 
 
@@ -246,17 +246,19 @@ nav img {
     margin: 0;
     line-height: 25px;
 }
+
 .console {
     border-bottom: 2px solid var(--ps-light-blue);
 }
 
 .dull {
-    filter: opacity(60%);
+    opacity: 0.5;
+    border-bottom: 2px solid transparent;
 }
 
-.hover_thumb:hover {
+.dull:hover {
     cursor: pointer;
-    filter: opacity(100%);
+    opacity: 1;
     border-bottom: 2px solid var(--ps-light-blue);
 }
 
